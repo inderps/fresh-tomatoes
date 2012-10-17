@@ -6,6 +6,9 @@ gem 'rails', '3.2.8'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'pg'
+gem 'pry'
+gem 'her'
+gem "faraday_middleware"
 
 
 # Gems used only for assets and not required
