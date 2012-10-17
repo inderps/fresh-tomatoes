@@ -1,0 +1,23 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: fresh_tomatoes_development
+  pool: 5
+  username: tom
+  host: localhost
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: fresh_tomatoes_test
+  pool: 5
+  username: tom
+  host: localhost
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: fresh-tomatoes_production
+  pool: 5
+  username: fresh-tomatoes
+  host: localhost
