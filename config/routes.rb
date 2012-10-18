@@ -1,6 +1,9 @@
 FreshTomatoes::Application.routes.draw do
 
   post "/" => "home#index"
+  get "current_movies/" => "current_movie#index"
+  get "dummy" => "current_movie#test_create"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

@@ -11,6 +11,18 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 0) do
+ActiveRecord::Schema.define(:version => 20121017194216) do
+
+  create_table "current_movies", :force => true do |t|
+    t.string   "title"
+    t.string   "description"
+    t.string   "director"
+    t.string   "actors"
+    t.string   "image_url"
+    t.string   "language"
+    t.integer  "votes"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
 
 end
